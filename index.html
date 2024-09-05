@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 95%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .main {
+            padding: 2rem;
+            background: white;
+            margin: 2rem 0;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .profile img {
+            width: 150px;
+            height: auto;
+            margin-right: 1rem;
+        }
+
+        .profile-details {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .large-text {
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="profile">
+                <img src="profile.jpg" alt="个人照片">
+                <div class="profile-details">
+                    <h2>Yifan Yang(杨一帆)</h2>
+                    <p>Email: yangyifan22z@ict.ac.cn</p>
+                    <p>Address: No. 6 Ke Xue Yuan South Road, Haidian District, Beijing, China 100190</p>
+                </div>
+            </div>
+            <h2>About Me</h2>
+            <p>I am a third year PhD student at <a href="https://www.ict.ac.cn">Institude of Computing Technology,
+                    Chinese Academy of Sciences (ICT, CAS)</a>. My research interests are
+                in data management systems, AI4DB, and computer architectures.</p>
+
+            <h2>Educations</h2>
+            <p>I received my B.E from <a href="https://www.ucas.ac.cn">University of Chinese Academy of Sciences
+                    (UCAS)</a>. </p>
+
+            <h2>Publications</h2>
+            <p><b>Yifan Yang</b> and Shimin Chen. LITS: An Optimized Learned Index for
+                Strings. PVLDB, 17(11): 3415-3427, 2024. (<a
+                    href="https://www.vldb.org/pvldb/vol17/p3415-chen.pdf">pdf</a>, <a
+                    href="https://github.com/schencoding/lits.git">code</a>)</p>
+        </div>
+    </div>
+</body>
+
+</html>
